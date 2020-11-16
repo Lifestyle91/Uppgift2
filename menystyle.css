@@ -1,3 +1,4 @@
+/* bakgrundsbild till meny.html */
 body {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bgimage.jpg');
 	background-repeat: no-repeat;
@@ -5,6 +6,8 @@ body {
 	background-size: 100% 100%;
 	color: white;
 }
+
+/* tabellerna till meny.html */
 table.center {
 	margin-left: auto;
 	margin-right: auto;
@@ -19,6 +22,8 @@ th, td {
 tr:hover {
 	background-color: #000;
 }
+
+/* h2 rubrik till meny.html */
 h2 {
 	color: navy;
 	margin-left: 35px;
@@ -38,6 +43,8 @@ th, td {
 	padding: 20px;
 	text-align: left;
 	border-bottom: 1px solid #ddd;
+	
+/* Bild för tabell till meny.html */	
 }
 img.center {
 	display: block;
