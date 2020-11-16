@@ -10,26 +10,31 @@
 	<link href="button.css" rel="stylesheet">
 	<link href="footer.css" rel="stylesheet">
 </head>
-<body style="margin-top: 200px;">
+<body>
+	
+	
 	<header>
-		<img src="img/logo.png">
 		<nav>
-			<ul>
-				<li>
-					<a href="index.html">Hem</a>
-				</li>
-				<li>
-					<a href="meny.html">Meny</a>
-				</li>
-				<li>
-					<a href="#">Om oss</a>
-				</li>
-				<li>
-					<a href="#">Kontakt</a>
-				</li>
-			</ul>
+			<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Start</a>
+  <a href="meny.html">Meny</a>
+  <a href="#contact">Kontakta Oss</a>
+  <div class="dropdown">
+    
+    <div class="dropdown-content">
+      <a href="index.html">Start</a>
+      <a href="meny.html">Meny</a>
+      <a href="">Länk 3</a>
+	  <a href="">Länk 4</a>
+    </div>
+  </div> 
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 		</nav>
 	</header>
+	
+	
 	<h2>Pizza</h2><img alt="Pizza" class="center" src="img/pizza1.jpg" style="margin-bottom: 30px;">
 	<table class="center">
 		<tr>
@@ -129,5 +134,16 @@
 			</form>
 		</div>
 	</footer>
+	
+		<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 </body>
 </html>

@@ -1,6 +1,8 @@
 body {
 	background-color: none;
 }
+
+/* Rubrik på parallex block */
 h2.h2meny {
 	color: navy;
 	margin-left: 35px;
@@ -10,6 +12,7 @@ h2.h2meny {
 	padding: 50px 16px;
 	text-decoration: none;
 }
+/* Sub rubrik på parallex block */
 p.meny {
 	color: navy;
 	margin-left: 35px;
