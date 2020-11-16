@@ -1,0 +1,47 @@
+body {
+	background-color: none;
+}
+h2.h2meny {
+	color: navy;
+	margin-left: 35px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 50px 16px;
+	text-decoration: none;
+}
+p.meny {
+	color: navy;
+	margin-left: 35px;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+}
+body, html {
+	height: 80%;
+}
+/* parallax css */
+
+.parallax {
+	/* The image used */
+	background-image: url('img/pizza.jpg');
+	/* Full height */
+	width: 100vw;
+	height: 50vh;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+	* {
+		box-sizing: border-box;
+	}
