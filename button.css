@@ -1,4 +1,5 @@
- .button {
+ /* Knappar på front page, hero-banner + parallax sektion */
+.button {
  	border: none;
  	color: black;
  	padding: 24px 50px;
