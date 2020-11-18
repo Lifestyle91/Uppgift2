@@ -1,9 +1,8 @@
-/* navbar på front page */
 body {margin:0;font-family:Arial}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #000;
 }
 
 .topnav a {
@@ -17,7 +16,7 @@ body {margin:0;font-family:Arial}
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #blue;
   color: white;
 }
 
@@ -103,3 +102,4 @@ body {margin:0;font-family:Arial}
     text-align: left;
   }
 }
+
