@@ -1,0 +1,56 @@
+body {
+	background-color: none;
+}
+
+/* Rubrik på parallex block */
+h2.h2meny {
+	color: navy;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    min-width: 50;
+	color: black;
+	text-align: center;
+	padding: 50px 16px;
+	text-decoration: none;
+}
+/* Sub rubrik på parallex block */
+p.meny {
+	color: navy;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 50;
+    min-width: 50;
+	color: black;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+}
+body, html {
+	height: 80%;
+}
+/* parallax css */
+
+.parallax {
+	/* The image used */
+	background-image: url('img/pizza.jpg');
+	/* Full height */
+	width: 100%;
+	height: 50%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
+		background-attachment: scroll;
+	}
+	* {
+		box-sizing: border-box;
+	}
